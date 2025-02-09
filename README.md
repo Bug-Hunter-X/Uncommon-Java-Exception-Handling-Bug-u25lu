@@ -1,0 +1,1 @@
+This repository demonstrates an uncommon Java bug related to exception handling. The code attempts to divide by zero and access the length of a null string. Although exceptions are caught, the program continues, and later code may still fail due to unhandled consequences of the exceptions.  The solution shows how to address this correctly.
